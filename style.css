@@ -25,6 +25,14 @@ body {
     background: white;
     height: 100%;
     overflow: hidden;
+    width: 100%;
+}
+
+#site {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 img {
@@ -33,14 +41,20 @@ img {
 }
 
 #part-left {
-    padding-right: 3rem;
+    float: left;
+
+    display: block;
+    /* padding-right: 3rem; */
     max-width: 12rem;
+    width: 20%;
 }
 
 #part-right {
-    flex: 1;
-    height: 100%;
+    float: left;
+    display: block;
     overflow: hidden;
+    width: 80%;
+
 }
 
 #contenu {
@@ -72,6 +86,10 @@ img {
     margin-bottom: 3rem;
 }
 
+#Zone__citation-accueil{
+    width: 100%;
+}
+
 #citation-accueil {
     margin: 2em auto;
     border: 1px solid black;
@@ -82,6 +100,7 @@ img {
     font-size: .65rem;
     text-align: center;
     width: max-content ;
+    height: max-content;
 }
 
 /*
@@ -97,7 +116,12 @@ img {
 */
 
 .Menu {
-    
+    width: 120px;
+    height: 100%;
+}
+
+.Zone__Menu__SousTitre{
+    width: 110px;
 }
 
 .Menu__Titre {
