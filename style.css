@@ -10,7 +10,7 @@ ___| |_ _ __ _   _  ___| |_ _   _ _ __ ___
 html {
     height: 100vh;
     background: #1f222e;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "NowAltRegular", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.075ch;
@@ -80,6 +80,8 @@ img {
     border-radius: 21px;
     font-weight: 700;
     font-size: .65rem;
+    text-align: center;
+    width: max-content ;
 }
 
 /*
@@ -122,6 +124,12 @@ img {
 .Menu__SousTitre__decale span {
     flex: 1;
     display: block;
+}
+
+.Menu__Qui-est-ce {
+    font-size: 0.6rem;
+    margin-top: 3rem;
+    font-weight: 700;
 }
 
 .Menu__Contact {
@@ -227,4 +235,13 @@ img {
 
 .contenu-article h3 {
     margin: 1em;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        flex-wrap: wrap;
+    }
+    #part-left, #part-right {
+        flex: 0 0 100%;
+    }
 }
