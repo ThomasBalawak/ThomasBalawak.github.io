@@ -40,9 +40,26 @@ img {
     height: auto;
 }
 
-.colonne article figure img {
+.Texte__Image__Article{
+    margin : 0.8rem;
+    font-size: 0.8rem;
+}
+
+.Image__Article {
     width: 100%;
 }
+/*
+.Format_Carre {
+    height: 550px;
+    overflow-y: auto;
+}
+
+.Format_Rectangle {
+    height: 225px;
+    overflow-y: auto;
+
+}*/
+
 
 #part-left {
     float: left;
@@ -76,7 +93,7 @@ img {
     justify-content: space-between;
 }
 
-.Zone_colonnes {
+.Zone__Colonnes {
     resize: vertical;
     display: flex;
     width: 100%;
@@ -84,7 +101,7 @@ img {
 
 .colonne {
     flex: 1;
-    padding: 2em;
+    padding: 2rem;
 }
 
 .colonne.left-side{
@@ -95,16 +112,22 @@ img {
     padding-right: 0;
 }
 
-.Zone_colonnes article {
-    margin-bottom: 3rem;
+.Format_Rectangle {
+    height: 17%;
+
 }
+
+.Format_Carre {
+    height: 34%;
+}
+
 
 #Zone__citation-accueil{
     width: 100%;
 }
 
 #citation-accueil {
-    margin: 2em auto;
+    margin: 2rem auto;
     border: 1px solid black;
     /* les "0" sont facultatifs dans "0.5rem" */
     padding: .5rem .75rem;
@@ -116,10 +139,6 @@ img {
     height: max-content;
 }
 
-article {
-    flex: auto;
-    width: 100%;
-  }
 
 /*
 
@@ -240,8 +259,8 @@ article {
     position: absolute;
     content: "";
     display: block;
-    width: 1em;
-    height: 1em;
+    width: 1rem;
+    height: 1rem;
     background: url('/images/FAV.png');
     background-size: 100%;
     top: -1px;
@@ -276,7 +295,7 @@ article {
 }
 
 .contenu-article h3 {
-    margin: 1em;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 767px) {
