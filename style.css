@@ -112,6 +112,10 @@ img {
     padding-right: 0;
 }
 
+.colonne.full {
+    padding: 0;
+}
+
 .Format_Rectangle {
     height: 17%;
 
@@ -121,6 +125,9 @@ img {
     height: 34%;
 }
 
+.Format_Rectangle_Full{
+    
+}
 
 #Zone__citation-accueil{
     width: 100%;
