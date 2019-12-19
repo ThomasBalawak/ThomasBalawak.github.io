@@ -75,11 +75,11 @@
       display: inline-block;
       padding: 20px;
   }
-/*
-  .responsive_list li:hover{
-      background-color: #1f222e
-  }
-*/
+
+  .responsive_list li{
+    font-family: "NowAltBlack", Arial, Helvetica, sans-serif;
+   }
+
 
   .handle {
       width: 100%;

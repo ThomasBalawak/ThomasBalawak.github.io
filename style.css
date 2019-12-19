@@ -175,6 +175,7 @@ img {
 
 .Zone__Menu__SousTitre{
     width: 110px;
+    font-family: "NowAltBlack", Arial, Helvetica, sans-serif;
 }
 
 .Menu__Titre {
@@ -284,7 +285,6 @@ img {
 
     body {
         padding : 0;
-        margin : 0;
     }
     
     #site {
